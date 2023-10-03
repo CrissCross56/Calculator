@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body class="bg-dark d-flex align-items-center justify-content-center">
+
+    <!-- we want 5 rows of 4 divs -->
+    <div class="container-fluid text-center">
+
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+          </div>
+          
+
+
+        <!-- first row -->
+        <div class="row">
+            <!-- first column -->
+            <div class="rounded bg-warning  text-light col text-center"><span>C</span></div>
+
+            <!-- second column -->
+            <div class="rounded bg-warning text-light col text-center"><span>%</span></div>
+
+            <!-- third column -->
+            <div class="rounded bg-warning text-light col text-center"><span>+</span></div>
+
+            <!-- fourth column -->
+            <div class=" rounded bg-warning text-light col text-center"><span>-</span></div>
+        </div>
+        <!-- second row -->
+        <div class="row">
+
+              <!-- first column -->
+              <div class="rounded bg-secondary text-light col text-center"><span>7</span></div>
+
+              <!-- second column -->
+              <div class="rounded bg-secondary text-light col text-center"><span>8</span></div>
+  
+              <!-- third column -->
+              <div class="rounded bg-secondary text-light col text-center"><span>9</span></div>
+  
+              <!-- fourth column -->
+              <!--Multiply-->
+              <div class="rounded bg-warning text-light col text-center"><span>*</span></div>
+        </div>
+        <!-- third row -->
+        <div class="row">
+
+               <!-- first column -->
+            <div class="rounded bg-secondary text-light col text-center"><span>4</span></div>
+
+            <!-- second column -->
+            <div class="rounded bg-secondary text-light col text-center"><span>5</span></div>
+
+            <!-- third column -->
+            <div class="rounded bg-secondary text-light col text-center"><span>6</span></div>
+
+            <!-- fourth column -->
+            <!--divide-->
+            <div class="rounded bg-warning text-light col text-center"><span>/</span></div>
+        </div>
+        <!-- fourth row -->
+        <div class="row">
+            
+             <!-- first column -->
+              <div class="rounded bg-secondary text-light col text-center"><span>1</span></div>
+
+              <!-- second column -->
+              <div class="rounded bg-secondary text-light col text-center"><span>2</span></div>
+  
+              <!-- third column -->
+              <div class="rounded bg-secondary text-light col text-center"><span>3</span></div>
+
+              <!-- fourth column -->
+              <!--Equals, clicking this should make the calculator give an answer-->
+              <div class="rounded bg-warning text-light col text-center"><span>=</span></div>
+        </div>
+        <!-- fifth row -->
+        <div class="row">
+
+              <!-- first column -->
+              <div class="rounded bg-secondary text-light col text-center"><span>.</span></div>
+
+              <!-- second column -->
+              <div class="rounded bg-secondary text-light col text-center"><span>0</span></div>
+  
+
+              <!--
+
+                for later
+
+                a beveled button import React from 'react';
+
+                const BeveledButton = ({ label, onClick }) => {
+                const buttonStyle = {
+                    background: 'linear-gradient(to bottom, #ECECEC, #D6D6D6)',
+                    borderRadius: '10px',
+                    padding: '10px 20px',
+                    boxShadow: '3px 3px 5px 0px rgba(0,0,0,0.75)',
+                    border: 'none',
+                    cursor: 'pointer',
+                    fontSize: '18px',
+                    fontWeight: 'bold',
+                    color: '#333',
+                    textShadow: '1px 1px #fff',
+                };
+
+                return (
+                    <button style={buttonStyle} onClick={onClick}>
+                    {label}
+                    </button
+
+              -->
+            
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
