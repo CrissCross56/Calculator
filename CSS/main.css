@@ -5,3 +5,48 @@
 span{
     font-size: 400%;
 }
+
+
+.previous-operand{
+    font-size: 1em;
+    min-height: 4vh;
+
+}
+
+.current-operand{
+    font-size: 2em;
+    min-height: 8vh;
+  
+}
+
+body{
+    background-color: black;
+}
+
+.output{
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+output:empty::before{
+    content: "";
+    display: inline-block;
+}
+
+p{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.custom-bevel {
+    box-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 10px; /* Adjust this value for more or less bevel effect */
+    transition: box-shadow 0.3s ease;
+}
+.custom-bevel:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6); /* Adjust this value for pressed effect */
+    transform: translateY(2px);
+}
+  
